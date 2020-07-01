@@ -36,7 +36,7 @@ export default function AddColorForm() {
       <input
         {...titleProps}
         type="text"
-        placeholder="color title..."
+        placeholder="colour title..."
         required
       />
       <input {...colorProps} type="color" required />
