@@ -2,3 +2,49 @@
   font-family: sans-serif;
   text-align: center;
 }
+
+.button {
+  position: absolute;
+  right: 0.25em;
+  top: 0.25em;
+  color: #c00;
+}
+
+.color-box {
+  flex-basis: calc(25% - 2px - 0.5em);
+  margin: 0.25em;
+  border: 1px solid #ededed;
+}
+
+.color-box h1 {
+  margin: 0;
+  text-align: center;
+}
+
+.star-rating {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0.5em;
+}
+
+.star-rating p {
+  margin: 0;
+}
+
+@media screen and (max-width: 1200px) {
+  color-box {
+    flex-basis: calc(33.3334% - 2px - 0.5em);
+  }
+}
+@media screen and (max-width: 800px) {
+  color-box {
+    flex-basis: calc(50% - 2px - 0.5em);
+  }
+}
+@media screen and (max-width: 500px) {
+  color-box {
+    flex-basis: calc(100% - 2px - 0.5em);
+  }
+}
